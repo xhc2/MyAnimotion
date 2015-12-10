@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="-45"
+    android:pivotX="70%"
+    android:pivotY="50%"
+    android:startOffset="1700"
+    android:duration="400"
+    />
+    <!--fromDegrees开始旋转的角度-->
+    <!--toDegrees旋转到的角度-->
+    <!--startOffset是延迟多少秒开始执行动画-->
+    <!--pivotX就是以哪个点开始旋转，如果pivotX ，pivotY都是50%的话，那么就是以中心开始旋转-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fromXScale="1.0"
+    android:toXScale="1.4"
+    android:fromYScale="1.0"
+    android:toYScale="0.6"
+
+    android:pivotX="0"
+    android:pivotY="1.0"
+    android:fillAfter="false"
+    android:duration="700" />
+    <!--android:fromXScale="1.0" 从最开始的样子，就是本来的样子，如果>1.0就是变大，<1.0就是变小-->
+    <!--android:toXScale="1.4" 就是从fromXScale变到toXScale的样子。从x方向上拉伸-->
+    <!--android:interpolator 插值器，变化速度-->
+    <!--android:pivotX="0%" 是从最左边开始变化，如果是10%就是从10%*自身的宽度的地方做分割点向两边变化-->
+    <!--android:pivotY="100%" 是从最下面开始变化，-->

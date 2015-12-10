@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fromXDelta="50.0"
+    android:toXDelta="200.0"
+    android:fromYDelta="0.0"
+    android:startOffset="1700"
+    android:toYDelta="100.0"
+    android:duration="1000"
+    />
+    <!--android:startOffset="1700"延迟多少秒开始执行动画-->
+    <!--toYType 这一类似乎只能在java代码中设置-->
+
+    <!--fromXDelta是移动开始的X起始位置。如果是0.0就是本身控件自己的位置。如果是50.0就会向右移然后才开始动画。-->
+
+    <!--toXDelta是移动所到的地方。-->
