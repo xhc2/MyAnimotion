@@ -46,6 +46,7 @@ public class ViewAnimotionActivity extends AppCompatActivity implements View.OnC
 
     private void getAliphaAnimationFromJava() {
         AlphaAnimation alipha = new AlphaAnimation(0.0f, 1.0f);
+        alipha.setDuration(1000);
         alpha.startAnimation(alipha);
     }
 

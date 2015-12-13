@@ -4,4 +4,5 @@
     <string name="title_activity_view_animotion">ViewAnimotionActivity</string>
     <string name="title_activity_layout_animation_actiivty">LayoutAnimationActiivty</string>
     <string name="title_activity_drawable_animation">DrawableAnimationActivity</string>
+    <string name="title_activity_object_animation">ObjectAnimationActivity</string>
 </resources>
