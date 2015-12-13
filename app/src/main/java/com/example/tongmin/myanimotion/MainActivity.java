@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.chazhiqi:
+                intent.setClass(MainActivity.this,InterpolatorActivity.class);
+                startActivity(intent);
                 break;
 
         }

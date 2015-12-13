@@ -4,32 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    >
     <Button
-        android:id="@+id/valuejava"
+        android:id="@+id/AccelerateDecelerateInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ValueAnimator from java" />
+        android:text="AccelerateDecelerateInterpolator"
+        />
 
     <Button
-        android:id="@+id/valuexml"
+        android:id="@+id/AccelerateInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ValueAnimator from xml" />
-
+        android:text="AccelerateInterpolator"
+        />
     <Button
-        android:id="@+id/objectjava"
+        android:id="@+id/AnticipateInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ObjectAnimator from java" />
-
+        android:text="AnticipateInterpolator"
+        />
     <Button
-        android:id="@+id/objectxml"
+        android:id="@+id/AnticipateOvershootInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ObjectAnimator from xml" />
-
-
+        android:text="AnticipateOvershootInterpolator,"
+        />
 
 </LinearLayout>

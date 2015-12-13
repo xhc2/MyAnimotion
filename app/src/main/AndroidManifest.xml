@@ -21,19 +21,32 @@
         <activity
             android:name=".ViewAnimotionActivity"
             android:label="@string/title_activity_view_animotion"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LayoutAnimationActiivty"
             android:label="@string/title_activity_layout_animation_actiivty"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DrawableAnimationActivity"
             android:label="@string/title_activity_drawable_animation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ObjectAnimationActivity"
             android:label="@string/title_activity_object_animation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ObjectAnimationActivity2"
+            android:label="@string/title_activity_object_animation2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InterpolatorActivity"
+            android:label="@string/title_activity_interpolator"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

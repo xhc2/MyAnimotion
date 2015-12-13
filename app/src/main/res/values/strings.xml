@@ -5,4 +5,6 @@
     <string name="title_activity_layout_animation_actiivty">LayoutAnimationActiivty</string>
     <string name="title_activity_drawable_animation">DrawableAnimationActivity</string>
     <string name="title_activity_object_animation">ObjectAnimationActivity</string>
+    <string name="title_activity_object_animation2">ObjectAnimationActivity2</string>
+    <string name="title_activity_interpolator">InterpolatorActivity</string>
 </resources>
