@@ -46,6 +46,7 @@ public class ObjectAnimationActivity2 extends AppCompatActivity {
         Toast.makeText(this,"load from objectjava",Toast.LENGTH_SHORT).show();
         ObjectAnimator sin = ObjectAnimator.ofInt(sinView, "offset", 0, 50);
         sin.setDuration(10000);
+
         sin.start();
 
     }

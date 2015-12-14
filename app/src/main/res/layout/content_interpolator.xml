@@ -4,32 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
+
     <Button
         android:id="@+id/AccelerateDecelerateInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AccelerateDecelerateInterpolator"
-        />
+        android:text="AccelerateDecelerateInterpolator" />
 
     <Button
         android:id="@+id/AccelerateInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AccelerateInterpolator"
-        />
+        android:text="AccelerateInterpolator" />
+
     <Button
         android:id="@+id/AnticipateInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AnticipateInterpolator"
-        />
+        android:text="AnticipateInterpolator" />
+
     <Button
         android:id="@+id/AnticipateOvershootInterpolator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AnticipateOvershootInterpolator,"
-        />
+        android:text="AnticipateOvershootInterpolator," />
+
+    <Button
+        android:id="@+id/BounceInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BounceInterpolator," />
+
+    <Button
+        android:id="@+id/CycleInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CycleInterpolator," />
+
+    <Button
+        android:id="@+id/DecelerateInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DecelerateInterpolator," />
+a
+    <Button
+        android:id="@+id/FastOutLinearInInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FastOutLinearInInterpolator," />
+
+    <Button
+        android:id="@+id/LinearInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearInterpolator" />
+
+    <Button
+        android:id="@+id/LinearOutSlowInInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearOutSlowInInterpolator" />
+
+    <Button
+        android:id="@+id/OvershootInterpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OvershootInterpolator" />
+
+    <!--<Button-->
+        <!--android:id="@+id/PathInterpolator"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="PathInterpolator" />-->
 
 </LinearLayout>
